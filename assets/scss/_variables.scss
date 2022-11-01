@@ -1,0 +1,44 @@
+//  COLOR
+
+
+// BG
+
+.pe-bg-light-gray-color {
+  background-color: $light_color;
+}
+
+
+// TEXT
+
+.pe-text-gray-color {
+  color: $gray_color;
+}
+
+.pe-text-dark-gray-color {
+  color: $dark_gray_color;
+}
+
+
+// HEIGHT
+
+.height-500px {
+  height: 500px;
+}
+
+
+// ICON
+.header-icon {
+  @apply pe-text-gray-color p-2 transition-colors duration-500;
+
+  &:hover {
+    @apply cursor-pointer pe-text-dark-gray-color;
+  }
+}
+
+.footer-icon {
+  @apply text-6xl pe-text-gray-color p-2 transition-colors duration-500;
+
+  &:hover {
+    @apply cursor-pointer pe-text-dark-gray-color;
+  }
+}
